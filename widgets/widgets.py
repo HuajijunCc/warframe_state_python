@@ -2,7 +2,6 @@ from PySide6.QtCore import Qt
 from PySide6.QtGui import QPaintEvent, QResizeEvent
 from PySide6.QtWidgets import QWidget, QLabel, QGridLayout, QHBoxLayout, QSizePolicy
 
-
 '''
     #纪元 结点
     # 剩余时间
@@ -33,9 +32,9 @@ class FissureLabel(QWidget):
         #         label.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
     def paintEvent(self, event: QPaintEvent) -> None:
-        print(self.tier_label.geometry())
-        print(self.node_label.geometry())
-        print(self.eta_label.geometry())
+        # print(self.tier_label.geometry())
+        # print(self.node_label.geometry())
+        # print(self.eta_label.geometry())
         return super().paintEvent(event)
 
     # def resizeEvent(self, event: QResizeEvent):

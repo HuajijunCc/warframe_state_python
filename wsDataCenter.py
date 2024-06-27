@@ -36,4 +36,4 @@ def getFissureData(data: list[dict[str,str]]):
             enemy = obj['enemyKey']
             isHard = obj['isHard']
             # if type == 'Survival' and enemy == 'Orokin' and isHard:
-            print(obj['node'] + ' ' + obj['tier'] + ': ' + obj['eta'])
+            # print(obj['node'] + ' ' + obj['tier'] + ': ' + obj['eta'])
